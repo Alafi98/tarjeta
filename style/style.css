@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@import "./main.css";
+@import url(./card.css);
+@import url(./form.css);
+@import url(./thanks.css);
+
+:root {
+--Linear-gradient-blue: hsl(249, 99%, 64%); 
+--Linear-gradient-blue: hsl(278, 94%, 30%);
+--Red: hsl(0, 100%, 66%);
+--White: hsl(0, 0%, 100%);
+--Light-grayish-violet: hsl(270, 3%, 87%);
+--Dark-grayish-violet: hsl(279, 6%, 55%);
+--Very-dark-violet: hsl(278, 68%, 11%);
+
+--font: 'Space Grotesk', sans-serif;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 18px;
+    font-family: var(--font);
+}
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
